@@ -56,7 +56,7 @@ header .banner {
 header .banner-text { 
    width: 100%;
    background: rgb(189,185,185);
-background: radial-gradient(circle, rgba(189,185,185,1) 0%, rgba(255,255,255,0) 100%);
+background: radial-gradient(circle, rgb(154, 193, 231) 0%, rgba(255,255,255,0) 100%);
    border-radius: 20%;
  }
 header .banner-text h1 {
@@ -804,6 +804,7 @@ call-to-action .button {
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
+   text-align: right;
 }
 #contact .section-head { margin-bottom: 42px; }
 
