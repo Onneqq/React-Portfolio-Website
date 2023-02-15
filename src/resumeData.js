@@ -37,25 +37,25 @@ let resumeData = {
       {
         "CompanyName":"Zeller",
         "specialization":"Account Executive",
-        "MonthOfLeaving":"Sept",
+        "MonthOfLeaving":"",
         "YearOfLeaving":"April 2022 - Nov 2022",
       },
       {
         "CompanyName":"Estimate One",
         "specialization":"Business Development Manager",
-        "MonthOfLeaving":"April",
+        "MonthOfLeaving":"",
         "YearOfLeaving":"March 2020 - April 2022",
       },
       {
         "CompanyName":"Sumo",
         "specialization":"Renewable Energy Expert",
-        "MonthOfLeaving":"March",
+        "MonthOfLeaving":"",
         "YearOfLeaving":"August 2018 - March 2020",
       },
       {
         "CompanyName":"AGL",
         "specialization":"Solar Sales Expert",
-        "MonthOfLeaving":"August",
+        "MonthOfLeaving":"",
         "YearOfLeaving":"February 2016 - August 2018",
       }
     ],
@@ -78,22 +78,26 @@ let resumeData = {
       {
         "name":"Back In My Day",
         "description":"Web app game - guess the year each photo was taken! - Using React",
-        "imgurl":"images/portfolio/choiceexample.png"
+        "imgurl":"images/choiceexample.png",
+        "link": "https://back-in-my-day-e9752.web.app/"
       },
       {
         "name":"Sprite Knite",
         "description":"Web app game (group project) - Using Node.js & Express",
-        "imgurl":"images/portfolio/SpriteKnightHomePage.png"
+        "imgurl":"images/SpriteKnightHomePage.png",
+        "link": "https://github.com/Onneqq/sprite-knight"
       },
       {
         "name":"Tic Tac Toe",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/Mario Game Example.png"
+        "imgurl":"images/Mario Game Example.png",
+        "link": "https://onneqq.github.io/Tic-Tac-Toe/"
       },
       {
         "name":"Coming Soon",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/comingsoon.png"
+        "imgurl":"images/comingsoon.png",
+        "link": "#"
       }
     ],
     "testimonials":[
