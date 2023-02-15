@@ -53,7 +53,12 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { 
+   width: 100%;
+   background: rgb(189,185,185);
+background: radial-gradient(circle, rgba(189,185,185,1) 0%, rgba(255,255,255,0) 100%);
+   border-radius: 20%;
+ }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
@@ -253,6 +258,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   text-shadow: none;
 }
 
 #resume .header-col { padding-top: 9px; }
